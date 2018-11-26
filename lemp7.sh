@@ -8,7 +8,7 @@ read DOMAIN
 sudo add-apt-repository -y ppa:ansible/ansible-2.4
 sudo apt-get -y update
 sudo apt-get -y install git python-dev libffi-dev python-markupsafe libssl-dev
-sudo apt-get -y install ansible mc curl wget git
+sudo apt-get -y install ansible mc wget 
 
 mkdir ~/playbooks && git clone https://github.com/cscart/server-ansible-playbooks ~/playbooks
 cp ~/playbooks/config/advanced.json  ~/playbooks/config/main.json
